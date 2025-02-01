@@ -20,6 +20,22 @@ const theme = extendTheme({
       900: "111",
     },
   },
+  components: {
+    Menu: {
+      baseStyle: {
+        list: {
+          bg: "#262626",
+        },
+      },
+    },
+    Card: {
+      baseStyle: {
+        container: {
+          bg: "#262626",
+        },
+      },
+    },
+  },
 });
 
 export default theme;
